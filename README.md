@@ -31,59 +31,59 @@ entities.
 
 * Signup User:
 ```*.sh-session
-  http://13.49.159.144:8080/user/signup
+  http://localhost:8080/user/signup
 ```
 
 * Signin User:
 ```*.sh-session
-  http://13.49.159.144:8080/user/signin
+  http://localhost:8080/user/signin
 ```
 
 * Signout User:
 ```*.sh-session
-  http://13.49.159.144:8080/user/signout?email={email}&token={token}
+  http://localhost:8080/user/signout?email={email}&token={token}
 ```
 
 * Following Other User:
 ```*.sh-session
-  http://13.49.159.144:8080/user/follow/myId/{myId}/otherId/{otherId}
+  http://localhost:8080/user/follow/myId/{myId}/otherId/{otherId}
 ```
 
 >Post API References
 
 * Add Post:
 ```*.sh-session
- http://13.49.159.144:8080/post?email={email}&token={token}
+ http://localhost:8080/post?email={email}&token={token}
 ```
 * Get All Post:
 ```*.sh-session
- http://13.49.159.144:8080/post?email={email}&token={token}
+ http://localhost:8080/post?email={email}&token={token}
 ```
 * Update Post:
 ```*.sh-session
- http://13.49.159.144:8080/post/?email={email}&token={token}&postId={postId}&postTitle={postTitle}
+ http://localhost:8080/post/?email={email}&token={token}&postId={postId}&postTitle={postTitle}
 ```
 * Delete Post:
 ```*.sh-session
- http://13.49.159.144:8080/post/?email={email}&token={token}&postId={postId}
+ http://localhost:8080/post/?email={email}&token={token}&postId={postId}
 ```
 >Comment API References
 
 * Add Comment:
 ```*.sh-session
- http://13.49.159.144:8080/comment
+ http://localhost:8080/comment
 ```
 * Get All Comments:
 ```*.sh-session
- http://13.49.159.144:8080/comment
+ http://localhost:8080/comment
 ```
 * Update Comment:
 ```*.sh-session
- http://13.49.159.144:8080/comment?email={email}&token={token}&commentId={commentId}&commentBody={commentBody}
+ http://localhost:8080/comment?email={email}&token={token}&commentId={commentId}&commentBody={commentBody}
 ```
 * Delete Comment:
 ```*.sh-session
- http://13.49.159.144:8080/comment/commentId/{commentId}
+ http://localhost:8080/comment/commentId/{commentId}
 ```
 
 ### 3. Service:
